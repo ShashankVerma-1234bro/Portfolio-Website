@@ -1,0 +1,95 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    background-color: lightblue;
+    color: white;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 200;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+}
+
+.profile-photo {
+    width: 60px;
+    transition: transform 0.8s ease-in-out;
+    border-radius: 30px;
+    margin-left: 90px;
+    margin-right:30px;
+    cursor: pointer;
+}
+
+.profile-photo:hover {
+    transform: scale(1.48);    
+}
+
+.your-name {
+    font-size: 25px;
+    font-family: 'Alfa Slab One', cursive;
+    margin-right: 10px;
+}
+
+.right-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 600px;
+}
+
+.home, .about {
+    font-size: 20px;
+    font-family: 'Alfa Slab One', cursive;
+    color: black;
+    text-decoration: none;
+}
+
+.home:hover, .your-name:hover, .about:hover {
+    text-decoration: underline;
+}
+
+
+.linkedin-photo {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    transition: opacity 0.5s;
+}
+
+.github-photo {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    transition: opacity 0.5s;
+}
+
+.github-photo:hover {
+    opacity: 0.6;
+}
+
+.linkedin-photo:hover {
+    opacity: 0.6;
+}
+
+.x-photo {
+    width: 30px;
+    height: 30px;
+    margin-right: 60px;
+    border-radius: 5px;
+    transition: opacity 0.5s;
+}
+
+.x-photo:hover {
+    opacity: 0.6;
+}
+
+html {
+  scroll-behavior: smooth;
+}
