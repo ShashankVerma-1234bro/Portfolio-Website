@@ -73,10 +73,8 @@ p:hover {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between; 
-    padding-top: 80px;
-    padding-left: 50px;
-    padding-right: 50px;
+    justify-content: space-evenly;
+    padding-top: 60px;
 }
 
 .yt-downloader-icon-text, .game-icon-text, .password-icon-text {
