@@ -138,8 +138,12 @@ p:hover {
 
 .comic-text {
     position: absolute;
-    top: 10px;
-    left: 10px;
+    top: 300px;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 35px;
+    font-family:  'Alfa Slab One', cursive;
+    font-style: italic;
 }
 
 .motto-contact-copyright {
