@@ -26,12 +26,17 @@ p:hover {
 
 .intro-text {
     display: flex;
+    flex-direction: row;
     position: absolute;
+    margin-right: 0px;
     top: 200px;
-    left: 218px;
-    font-size: 40px;
+    left: 0;
+    right: 0;
+    font-size: 30px;
+    justify-content: center;
     color: black;
     font-family: 'Alfa Slab One', cursive; 
+    flex-wrap: wrap;
 }
 
 .detailed-intro {
